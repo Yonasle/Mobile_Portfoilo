@@ -22,7 +22,7 @@
 
 # 📖 [Personal Portfoilo] <a name="about-project"></a>
 
-**[Personal Portfoilo]** is a... personal portfoilo which i designed for week one micriverse second Project.
+**[Portfolio: finish mobile version]** is a... personal portfoilo which i designed for week one microverse second Project.Which I included Flexbox and grid elements.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -31,14 +31,15 @@
 - HTML
   -CSS
   -FLEXBOX
+  -GRID
 
 ### Key Features <a name="key-features"></a>
 
 > Describe between 1-3 key features of the application.
 
 - **[Toolbar and Headline section]**
-- **[Header]**
-- **[Image]**
+- **[Header ]**
+- **[WORK SECTION]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
