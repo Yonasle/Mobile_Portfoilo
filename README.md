@@ -37,7 +37,7 @@
 
 > Describe between 1-3 key features of the application.
 
-- **[Header ]**
+- **[Header]**
 - **[WORK SECTION]**
 - **[ABOUT ME]**
 
