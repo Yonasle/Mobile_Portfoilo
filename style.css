@@ -43,7 +43,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: auto;
   }
 
   .starter h1 {
@@ -69,7 +69,7 @@
     position: absolute;
     height: 50px;
     left: 16px;
-    top: 645px;
+    top: 672px;
     font-family: "Playfair Display", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -85,7 +85,7 @@
   .starter p {
     position: absolute;
     height: 147px;
-    left: 16px;
+    left: 17px;
     top: 221px;
     padding: 20px 20px;
     font-family: "Poppins", sans-serif;
@@ -128,7 +128,9 @@
 
   .grid-container {
     display: grid;
-    gap: 10px;
+    grid-template-rows: (6, 1fr);
+    min-height: 500px;
+    gap: 60px;
     width: 100%;
     height: 342px;
     left: 0;
@@ -138,99 +140,21 @@
   .grid-item {
     position: relative;
     display: grid;
-    width: 100%;
-    height: 156px;
-    margin-top: 200px;
-    top: 285px;
-    background: #1a2236;
-    border: 0.333333px solid rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(0.5px);
-  }
-
-  .mac {
-    position: absolute;
-    display: flex;
-    width: 100%;
-    height: 186px;
-    left: 0;
-    top: 742px;
-    background: url(/Asset/mac1.svg);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    border: 0.333333px solid rgba(255, 255, 255, 0.1);
-  }
-
-  .mac2 {
-    position: absolute;
-    display: flex;
+    min-width: 0%;
+    min-height: 0%;
     width: 100%;
     height: 200px;
-    left: 0;
-    top: 1090px;
-    background: url(/Asset/mac2.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 0.333333px solid rgba(255, 255, 255, 0.1);
-  }
-
-  .mac3 {
-    position: absolute;
-    display: flex;
-    width: 100%;
-    height: 186px;
-    left: 0;
-    top: 1438px;
-    background: url(/Asset/mac3.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 0.333333px solid rgba(255, 255, 255, 0.1);
-  }
-
-  .mac4 {
-    position: absolute;
-    display: flex;
-    width: 100%;
-    height: 186px;
-    left: 0;
-    top: 1813px;
-    background: url(/Asset/mac4.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 0.333333px solid rgba(255, 255, 255, 0.1);
-  }
-
-  .mac5 {
-    position: absolute;
-    display: flex;
-    width: 100%;
-    height: 186px;
-    left: 0;
-    top: 2179px;
-    background: url(/Asset/mac5.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 0.333333px solid rgba(255, 255, 255, 0.1);
-  }
-
-  .mac6 {
-    position: absolute;
-    display: flex;
-    width: 100%;
-    height: 186px;
-    left: 0;
-    top: 2546px;
-    background: url(/Asset/mac6.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 0.333333px solid rgba(255, 255, 255, 0.1);
+    margin-top: 200px;
+    top: 752px;
+    background: #1a2236;
   }
 
   .grid-item h2 {
     position: absolute;
-    width: 264px;
+    width: 70%;
     height: 16px;
     left: 20px;
-    top: 20px;
+    top: 45px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -240,6 +164,17 @@
     /* identical to box height, or 16px */
 
     color: #fff;
+  }
+
+  .grid-item img {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    top: -250px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: cover;
   }
 
   ul {
@@ -253,7 +188,7 @@
     width: 69px;
     height: 20px;
     left: 20px;
-    top: 60px;
+    top: 90px;
     background: #98dede;
   }
 
@@ -271,7 +206,7 @@
     width: 100px;
     height: 20px;
     left: 99px;
-    top: 60px;
+    top: 90px;
     background: #98dede;
   }
 
@@ -289,7 +224,7 @@
     width: 74px;
     height: 20px;
     left: 210px;
-    top: 60px;
+    top: 90px;
     background: #98dede;
   }
 
@@ -316,7 +251,7 @@
     width: 178px;
     height: 44px;
     left: 20px;
-    top: 95px;
+    top: 140px;
     background-color: transparent;
     border: 1px solid white;
     font-size: 18px;
@@ -329,19 +264,20 @@
   }
 
   .about {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: auto;
   }
 
   .about h1 {
-    position: absolute;
+    position: relative;
     display: flex;
     width: 30%;
     height: 50px;
-    left: 16px;
-    top: 2960px;
+    right: 113px;
+    top: 3030px;
     font-family: "Playfair Display", monospace;
     font-style: normal;
     font-weight: 400;
@@ -358,8 +294,8 @@
     display: flex;
     width: 75%;
     height: 126px;
-    left: 20px;
-    top: 3025px;
+    left: 35px;
+    top: 3120px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -372,8 +308,7 @@
     position: absolute; /* set the button to relative position */
     width: 85%;
     height: 44px;
-    left: 20px;
-    top: 3180px;
+    top: 3265px;
     background-color: #1a2236;
     border: 1px solid white;
     font-size: 18px;
@@ -400,8 +335,8 @@
     display: flex;
     width: 85%;
     height: 289px;
-    left: 16px;
-    top: 3280px;
+    left: 30px;
+    top: 3920px;
     background: #1c528a;
     background-image: url(/Asset/hash.png);
     background-repeat: no-repeat;
@@ -430,8 +365,8 @@
     display: flex;
     width: 85%;
     height: 289px;
-    left: 16px;
-    top: 3600px;
+    left: 30px;
+    top: 4245px;
     background: #e2505c;
     background-image: url(/Asset/squre.svg);
     background-repeat: no-repeat;
@@ -460,8 +395,8 @@
     display: flex;
     width: 85%;
     height: 289px;
-    left: 15px;
-    top: 3920px;
+    left: 26px;
+    top: 4575px;
     background: #febf52;
     background-image: url(/Asset/bulb.svg);
     background-repeat: no-repeat;
