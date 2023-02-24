@@ -43,7 +43,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: auto;
   }
 
   .starter h1 {
@@ -64,10 +64,28 @@
     color: #1a2236;
   }
 
+  .starter h2 {
+    display: flex;
+    position: absolute;
+    height: 50px;
+    left: 16px;
+    top: 672px;
+    font-family: "Playfair Display", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 100%;
+    padding: 20px 20px;
+
+    /* identical to box height, or 50px */
+
+    color: #1a2236;
+  }
+
   .starter p {
     position: absolute;
     height: 147px;
-    left: 16px;
+    left: 17px;
     top: 221px;
     padding: 20px 20px;
     font-family: "Poppins", sans-serif;
@@ -91,16 +109,384 @@
     background-color: #1a2236;
     color: white;
   }
-}
 
-.combo {
-  position: absolute;
-  width: 100%;
-  height: 160px;
-  left: 0;
-  top: 472px;
-  display: flex;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(/Asset/colorcombo.svg);
+  .combo {
+    position: absolute;
+    width: 100%;
+    height: 160px;
+    left: 0;
+    top: 472px;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/Asset/colorcombo.svg);
+  }
+
+  .work-station {
+    display: grid;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-rows: (6, 1fr);
+    min-height: 500px;
+    gap: 60px;
+    width: 100%;
+    height: 342px;
+    left: 0;
+    top: 30px;
+  }
+
+  .grid-item {
+    position: relative;
+    display: grid;
+    min-width: 0%;
+    min-height: 0%;
+    width: 100%;
+    height: 200px;
+    margin-top: 200px;
+    top: 752px;
+    background: #1a2236;
+  }
+
+  .grid-item h2 {
+    position: absolute;
+    width: 70%;
+    height: 16px;
+    left: 20px;
+    top: 45px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 80%;
+
+    /* identical to box height, or 16px */
+
+    color: #fff;
+  }
+
+  .grid-item img {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    top: -250px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: cover;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+  .html {
+    position: absolute;
+    display: flex;
+    width: 69px;
+    height: 20px;
+    left: 20px;
+    top: 90px;
+    background: #98dede;
+  }
+
+  li.html {
+    font-size: 12px;
+    color: #333;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    padding: 3px 0 0 3px;
+  }
+
+  .ruby {
+    position: absolute;
+    display: flex;
+    width: 100px;
+    height: 20px;
+    left: 99px;
+    top: 90px;
+    background: #98dede;
+  }
+
+  li.ruby {
+    font-size: 12px;
+    color: #333;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    padding: 3px 0 0 3px;
+  }
+
+  .javas {
+    position: absolute;
+    display: flex;
+    width: 74px;
+    height: 20px;
+    left: 210px;
+    top: 90px;
+    background: #98dede;
+  }
+
+  li.javas {
+    font-size: 12px;
+    color: #333;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    padding: 3px 0 0 3px;
+  }
+
+  .stp {
+    position: absolute;
+    display: flex;
+    width: 178px;
+    height: 44px;
+    left: 20px;
+    top: 95px;
+    border: 1px solid #fff;
+  }
+
+  .buttn {
+    position: absolute;
+    width: 178px;
+    height: 44px;
+    left: 20px;
+    top: 140px;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 18px;
+    color: white;
+    padding: 0 30px 0 0;
+    background-image: url(/Asset/union.svg);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center right;
+  }
+
+  .about {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+
+  .about h1 {
+    position: relative;
+    display: flex;
+    width: 30%;
+    height: 50px;
+    right: 113px;
+    top: 3030px;
+    font-family: "Playfair Display", monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 100%;
+
+    /* identical to box height, or 50px */
+
+    color: #1a2236;
+  }
+
+  .about p {
+    position: absolute;
+    display: flex;
+    width: 75%;
+    height: 126px;
+    left: 35px;
+    top: 3120px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1a2236;
+  }
+
+  .about button {
+    position: absolute; /* set the button to relative position */
+    width: 85%;
+    height: 44px;
+    top: 3265px;
+    background-color: #1a2236;
+    border: 1px solid white;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 30px 0 95px;
+  }
+
+  .about button::before {
+    content: ""; /* add content to the pseudo-element */
+    background-image: url(/Asset/download.svg);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    width: 25px; /* set the width and height of the pseudo-element */
+    height: 25px;
+    position: absolute; /* position the pseudo-element absolutely */
+    left: 220px; /* set the left offset to position the image */
+  }
+
+  .card1 {
+    position: absolute;
+    display: flex;
+    width: 85%;
+    height: 289px;
+    left: 30px;
+    top: 3920px;
+    background: #1c528a;
+    background-image: url(/Asset/hash.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+
+  .card1 h2 {
+    position: absolute;
+    width: 116px;
+    height: 30px;
+    left: 66px;
+    top: 50px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+
+    /* identical to box height */
+
+    color: #fff;
+  }
+
+  .card2 {
+    position: absolute;
+    display: flex;
+    width: 85%;
+    height: 289px;
+    left: 30px;
+    top: 4245px;
+    background: #e2505c;
+    background-image: url(/Asset/squre.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+
+  .card2 h2 {
+    position: absolute;
+    width: 132px;
+    height: 30px;
+    left: 66px;
+    top: 50px;
+    font-family: "Poppins", monospace;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+
+    /* identical to box height */
+
+    color: #fff;
+  }
+
+  .card3 {
+    position: absolute;
+    display: flex;
+    width: 85%;
+    height: 289px;
+    left: 26px;
+    top: 4575px;
+    background: #febf52;
+    background-image: url(/Asset/bulb.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+
+  .card3 h2 {
+    position: absolute;
+    width: 55px;
+    height: 30px;
+    left: 65px;
+    top: 50px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+
+    /* identical to box height */
+
+    color: #fff;
+  }
+
+  .card1 ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: disc;
+    justify-content: space-between;
+    padding: 90px 16px 57px 80px;
+  }
+
+  .card1 li {
+    width: 178px;
+    height: 10px;
+    top: 81px;
+    left: 66px;
+    margin: 5px;
+    padding-left: 0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 12px;
+    letter-spacing: -0.0525em;
+    color: #fff;
+  }
+
+  .card2 ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: disc;
+    justify-content: space-between;
+    padding: 90px 16px 57px 80px;
+  }
+
+  .card2 li {
+    width: 178px;
+    height: 10px;
+    left: 66px;
+    top: 66px;
+    margin: 5px;
+    padding-left: 0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.0525em;
+    color: #fff;
+  }
+
+  .card3 ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: disc;
+    justify-content: space-between;
+    padding: 90px 25px 57px 80px;
+  }
+
+  .card3 li {
+    width: 178px;
+    height: 10px;
+    left: 65px;
+    top: 66px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.0525em;
+    color: #fff;
+  }
 }
