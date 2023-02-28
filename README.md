@@ -38,6 +38,7 @@
 - **[Header]**
 - **[WORK SECTION]**
 - **[ABOUT ME]**
+- **[Contact Form(pair-programming)]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,17 +87,14 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[The Project Work section]**
-- [ ] **[The Project About section]**
-- [ ] **[The project Contact section]**
+- **[JavaScript and Dom-Manipulation]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
+A big thanks to my coding partner [Troos](https://github.com/Kgomotso196/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,7 +106,7 @@ If you like this project, give it a ⭐.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse and Figma for help me build this design.
+I would like to thank Microverse and Figma for helping me build this design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
