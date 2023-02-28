@@ -578,8 +578,16 @@
     padding-left: 18px;
   }
 
+  input[type="email"] {
+    padding-left: 18px;
+  }
+
   .the-relative {
     position: relative;
+    width: 100%; /* set the parent container to be 100% of the page width */
+    display: flex;
+    justify-content: center; /* center the child element horizontally */
+    align-items: center;
   }
 
   .text-area {
