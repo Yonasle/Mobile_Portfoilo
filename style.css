@@ -185,6 +185,7 @@
   .html {
     position: absolute;
     display: flex;
+    float: left;
     width: 69px;
     height: 20px;
     left: 20px;
@@ -203,6 +204,7 @@
   .ruby {
     position: absolute;
     display: flex;
+    float: left;
     width: 100px;
     height: 20px;
     left: 99px;
@@ -221,6 +223,7 @@
   .javas {
     position: absolute;
     display: flex;
+    float: left;
     width: 74px;
     height: 20px;
     left: 210px;
