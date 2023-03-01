@@ -310,6 +310,7 @@
     width: 85%;
     height: 44px;
     top: 3265px;
+    left: 30px;
     background-color: #1a2236;
     border: 1px solid white;
     font-size: 18px;
@@ -612,7 +613,7 @@
     position: relative;
     width: 85%;
     height: 44px;
-    left: 16px;
+    left: 30px;
     top: 30px;
     color: #fff;
     background: #1a2236;
