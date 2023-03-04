@@ -1591,12 +1591,12 @@
 
   input {
     height: 52px;
-    width: 80%;
+    width: 100%;
     display: flex;
     color: #1a2236;
     background-color: transparent;
     border-radius: 4px;
-    margin-left: 18px;
+    margin-left: 0;
     margin-bottom: 8px;
     z-index: 99;
     font-size: 14px;
@@ -1616,12 +1616,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 1rem;
+    background-color: #fff;
   }
 
   .tname {
-    flex-basis: 48%;
-    list-style-type: none;
-    background-color: #fff;
+    flex: 1 1 48%;
   }
 
   .tname h3 {
@@ -1642,16 +1642,14 @@
   }
 
   .mail {
-    flex-basis: 48%;
-    list-style-type: none;
-    background-color: #fff;
+    flex: 1 1 48%;
   }
 
   .mail h3 {
     position: absolute;
     width: 64px;
     height: 18px;
-    left: 295px;
+    left: 253px;
     top: -20px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -1665,11 +1663,13 @@
   }
 
   .texts {
-    flex-basis: 100%;
-    list-style-type: none;
-    height: 155px;
-    background-color: #fff;
-    margin-top: 30px;
+    flex: 1 1 100%;
+  }
+
+  .texts input {
+    height: 200px;
+    width: 100%;
+    padding: 0 0 170px 0;
   }
 
   .texts h3 {
@@ -1677,7 +1677,7 @@
     width: 140.83px;
     height: 18px;
     left: 7px;
-    top: 90px;
+    top: 58px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
