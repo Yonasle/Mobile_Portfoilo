@@ -353,7 +353,7 @@
   }
 
   .about button {
-    position: absolute; /* set the button to relative position */
+    position: absolute;
     width: 85%;
     height: 44px;
     top: 3265px;
@@ -1029,6 +1029,9 @@
     height: 40px;
     margin-top: 85px;
     margin-left: 70px;
+    line-height: 40px; /* set line-height equal to button height */
+    text-align: center;
+    font-size: 19px;
     background: #98dede;
   }
 
@@ -1037,6 +1040,9 @@
     height: 40px;
     margin-top: 85px;
     margin-left: 30px;
+    line-height: 40px; /* set line-height equal to button height */
+    text-align: center;
+    font-size: 19px;
     background: #98dede;
   }
 
@@ -1045,15 +1051,22 @@
     height: 40px;
     margin-top: 85px;
     margin-left: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 19px;
     background: #98dede;
   }
 
   .buttn {
     width: 212px;
     height: 51px;
-    margin-left: 70px;
-    margin-top: 50px;
-    background: #fff;
+    margin-left: 66px;
+    margin-top: 25px;
+    font-size: 18px;
+    background-image: url("/Asset/arrow.svg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 0; /* adjust padding to make space for the image */
   }
 
   .grid-item img {
@@ -1101,6 +1114,9 @@
     height: 40px;
     margin-top: 40px;
     margin-left: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
     background: #98dede;
   }
 
@@ -1109,6 +1125,9 @@
     height: 40px;
     margin-top: 40px;
     margin-left: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
     background: #98dede;
   }
 
@@ -1117,6 +1136,9 @@
     height: 40px;
     margin-top: 40px;
     margin-left: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
     background: #98dede;
   }
 
@@ -1125,9 +1147,10 @@
     height: 51px;
     margin-left: 30px;
     margin-top: 25px;
+    font-size: 18px;
   }
 
-  .buton {
+  .mbuton {
     margin-left: -35px;
   }
 
@@ -1479,6 +1502,10 @@
     text-align: left;
     padding: 14px 60px;
     background: #1a2236;
+    background-image: url("/Asset/dowd.png");
+    background-repeat: no-repeat;
+    background-position: 150px 20px;
+    padding-right: 40px;
   }
 
   .about img {
@@ -1667,8 +1694,9 @@
     width: 254px;
     height: 70px;
     top: 75px;
-    left: 60px;
+    left: 95px;
     color: #fff;
+    padding-right: 40px;
     background: #1a2236;
   }
 
