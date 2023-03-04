@@ -10,8 +10,15 @@
   <body>
     <header>
       <a href="#" class="logo"></a>
+    
       <nav>
-        <img src="/Asset/hamburg.svg" class="hamburg" alt="" />
+          <img src="/Asset/hamburg.svg" class="hamburg" alt="" />
+          <ul class="navbar">
+            <li>Hello</li>
+            <li>Portfolio</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
       </nav>
     </header>
     <section class="description">
@@ -32,9 +39,26 @@
     </section>
 
     <section class="work-section">
+      <div class="projectcombine">
+        <div class="proRotate">
+          <h1>Projects</h1>
+          <img src="/Asset/dots2.svg" class="dots" alt="hi" />
+        </div>
+        <div class="backimg1"></div>
+      </div>
       <div class="grid-container">
        
+        <div class="grid-it">
+          <h2>Project name goes here</h2>
+          <ul>
+            <li class="html">HTML/CSS</li>
+            <li class="ruby">Ruby on Rails</li>
+            <li class="javas">Javascript</li>
+          </ul>
+          <button class="buttn">See this project</button>
           
+        </div>  
+
         <div class="grid-item"> 
           <img src="/Asset/mac1.svg"  alt="" />
           <h2>Project name goes here</h2>
@@ -95,6 +119,30 @@
           </ul>
           <button class="buttn">See this Project</button>
         </div>
+        <div class="mini_lap">
+          <img src="/Asset/minilaptop.svg" alt="" />
+        </div>
+        <div class="project_m">
+          <h2>Project name goes...</h2>
+          <ul>
+            <li class="mhtml">HTML/CSS</li>
+            <li class="mruby">Ruby on Rails</li>
+            <li class="mjavas">+1</li>
+          </ul>
+          <button class="mstp">See this project</button>
+          <img src="/Asset/arrow.svg" class="mbuton" alt="" />
+        </div>
+  
+        <div>
+          <img class="left_image" src="/Asset/mini_left.svg" alt="" />
+          <img class="thirdlap" src="/Asset/lapminip.svg" alt="" />
+          <img class="midlap" src="/Asset/midlap.svg" alt="" />
+          <img class="rightlap" src="/Asset/right_lap.svg" alt="" />
+          <img class="rore" src="/Asset/rore.svg" alt="" />
+          <img class="recic" src="/Asset/rec_circle.svg" alt="" />
+          <img class="yellow_lap" src="/Asset/yellowlap.svg" alt="" />
+          <img class="yellow_box" src="/Asset/yellowbox.svg" alt="" />
+        </div>
       </section>
       <section class="about-me"> 
       <div class="about">
@@ -106,6 +154,7 @@
           aliquip ea eiusmod
         </p>
         <button>Get my cv</button>
+      
       </div>
     </div>
     <div class="card1">
@@ -148,15 +197,11 @@
       <article>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
         dolore magna.</article>
       <form action="https://formspree.io/f/mjvdryev" method="POST">
-        <div class="the-relative">
-          <input type="text" maxlength="30" placeholder="Your name" required>
-        </div>
-        <div class="the-relative">
-          <input type="email" placeholder="Your email" required>
-        </div>
-        <div class="the-relative">
-          <input type="text" maxlength="500" class="text-area" placeholder="Enter your message here.." required>
-        </div>
+        <ul class="the-relative">
+         <li class="tname"> <h3>Your name</h3><input type="text" maxlength="30" placeholder="Your name" required></li> 
+         <li class="mail"><h3>Your email</h3><input type="email" placeholder="Your email" required></li> 
+         <li class="texts"><h3>Message</h3><input type="text" maxlength="500" class="text-area" placeholder="Enter your message here.." required></li> 
+        </ul>
         <button class="st_colla">Start collaboration</button>
       </form>
     </div>
