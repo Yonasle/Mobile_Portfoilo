@@ -36,6 +36,7 @@
     background-repeat: no-repeat;
     margin-top: 19px;
     margin-right: 10px;
+    background-image: url(/Asset/hamburg.svg);
   }
 
   nav {
@@ -138,7 +139,7 @@
     background-image: url(/Asset/colorcombo.svg);
   }
 
-  .work-station {
+  .work-section {
     display: grid;
   }
 
@@ -587,6 +588,11 @@
     display: none;
   }
 
+  .get-started {
+    display: flex;
+    flex-direction: column;
+  }
+
   .get-started h2 {
     font-family: "Playfair Display", sans-serif;
     font-weight: 400;
@@ -635,17 +641,24 @@
   }
 
   .the-relative {
-    position: relative;
-    width: 100%; /* set the parent container to be 100% of the page width */
     display: flex;
-    justify-content: center; /* center the child element horizontally */
-    align-items: center;
+    flex-direction: column;
+    width: 100%; /* set the parent container to be 100% of the page width */
+    justify-content: baseline; /* center the child element horizontally */
   }
 
   .text-area {
     height: 112px;
   }
-
+  .tname h3 {
+    display: none;
+  }
+  .mail h3 {
+    display: none;
+  }
+  .texts h3 {
+    display: none;
+  }
   form label {
     position: absolute;
     top: 18px;
@@ -896,7 +909,7 @@
     left: 70px;
     width: 27%;
     height: 70px;
-    padding-left: 40px;
+    padding-left: 0px;
     background: #1a2236;
     color: white;
   }
@@ -1078,7 +1091,7 @@
     width: 465px;
     height: 270px;
     top: 50px;
-    left: 55%;
+    left: 90px;
   }
 
   .project_m {
@@ -1522,9 +1535,7 @@
     height: 62.02px;
     right: 689px;
     top: 650px;
-    background:
-      linear-gradient(0deg, #83d7d7, #83d7d7),
-      url(/assets/fourth.svg),
+    background: linear-gradient(0deg, #83d7d7, #83d7d7), url(/assets/fourth.svg),
       linear-gradient(135deg, #fec55f 0%, #fcd06d 99.25%);
     background-blend-mode: normal, overlay, normal;
   }
@@ -1543,7 +1554,7 @@
     width: 100%;
     height: 1100px;
     left: 0;
-    top: 600px;
+    top: 800px;
     background: #f9f9fa;
   }
 
@@ -1694,9 +1705,9 @@
     width: 254px;
     height: 70px;
     top: 75px;
-    left: 95px;
+    left: 125px;
     color: #fff;
-    padding-right: 40px;
+    padding-right: 0px;
     background: #1a2236;
   }
 

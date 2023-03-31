@@ -81,14 +81,15 @@ To run the project, execute the following command:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/Yonasle/)
+- GitHub: [@githubhandle](https://github.com/Yonasle)
+- Twitter: [@twitterhandle](https://mobile.twitter.com/Yonasls)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/yonas-lemma-b8848823a/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
 - **[JavaScript and Dom-Manipulation]**
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
